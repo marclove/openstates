@@ -5,7 +5,7 @@ require 'openstates/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "openstates"
-  spec.version       = Openstates::VERSION
+  spec.version       = OpenStates::VERSION
   spec.authors       = ["Ivo Benedito"]
   spec.email         = ["ivobenedito@gmail.com"]
 

@@ -1,3 +1,3 @@
-module Openstates
+module OpenStates
   VERSION = "0.1.0"
 end

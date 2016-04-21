@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+group :development do
+  gem "guard-rspec"
+end
+
 group :development, :test do
   gem "awesome_print"
   gem "pry"

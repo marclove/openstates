@@ -16,7 +16,7 @@ describe OpenStates::Client::Legislators do
   end
 
   describe "#legislators_geo", :vcr do
-    it "returns legislators for a latitude/longitude pair" do
+    it "returns legislators for a latitude and longitude pair" do
       legislators = client.legislators_geo(37.775, -122.418)
       expect(legislators.first.full_name).not_to be_nil
     end

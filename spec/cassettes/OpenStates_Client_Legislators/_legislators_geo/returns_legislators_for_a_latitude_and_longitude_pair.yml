@@ -29,11 +29,11 @@ http_interactions:
       Content-Length:
       - '0'
       Date:
-      - Thu, 21 Apr 2016 17:37:58 GMT
+      - Thu, 21 Apr 2016 17:39:34 GMT
       X-Varnish:
-      - '198319653'
+      - 198323038 198319653
       Age:
-      - '0'
+      - '95'
       Via:
       - 1.1 varnish
       Connection:
@@ -42,7 +42,7 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Thu, 21 Apr 2016 17:37:42 GMT
+  recorded_at: Thu, 21 Apr 2016 17:39:17 GMT
 - request:
     method: get
     uri: http://openstates.org/api/v1/legislators/geo/?lat=37.775&long=-122.418
@@ -74,11 +74,11 @@ http_interactions:
       Content-Length:
       - '11575'
       Date:
-      - Thu, 21 Apr 2016 17:38:00 GMT
+      - Thu, 21 Apr 2016 17:39:34 GMT
       X-Varnish:
-      - '198319667'
+      - 198323045 198319667
       Age:
-      - '0'
+      - '94'
       Via:
       - 1.1 varnish
       Connection:
@@ -231,5 +231,5 @@ http_interactions:
         14800, San Francisco, CA 94102", "type": "district", "email": null}], "+party":
         "Democratic", "suffixes": ""}]'
     http_version: 
-  recorded_at: Thu, 21 Apr 2016 17:37:43 GMT
+  recorded_at: Thu, 21 Apr 2016 17:39:17 GMT
 recorded_with: VCR 3.0.1

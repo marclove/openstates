@@ -29,11 +29,11 @@ http_interactions:
       Content-Length:
       - '0'
       Date:
-      - Thu, 21 Apr 2016 17:37:58 GMT
+      - Thu, 21 Apr 2016 17:39:57 GMT
       X-Varnish:
-      - '198319638'
+      - 198323703 198319638
       Age:
-      - '0'
+      - '119'
       Via:
       - 1.1 varnish
       Connection:
@@ -42,7 +42,7 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Thu, 21 Apr 2016 17:37:41 GMT
+  recorded_at: Thu, 21 Apr 2016 17:39:40 GMT
 - request:
     method: get
     uri: http://openstates.org/api/v1/legislators/AKL000031/
@@ -74,11 +74,11 @@ http_interactions:
       Content-Length:
       - '3451'
       Date:
-      - Thu, 21 Apr 2016 17:37:58 GMT
+      - Thu, 21 Apr 2016 17:39:57 GMT
       X-Varnish:
-      - '198319646'
+      - 198323711 198319646
       Age:
-      - '0'
+      - '119'
       Via:
       - 1.1 varnish
       Connection:
@@ -129,5 +129,5 @@ http_interactions:
         "phone": "907-269-0106", "address": "716 W. 4th Ave. Suite 311\nAnchorage
         AK, 99501-2133", "type": "district", "email": null}], "suffixes": ""}'
     http_version: 
-  recorded_at: Thu, 21 Apr 2016 17:37:41 GMT
+  recorded_at: Thu, 21 Apr 2016 17:39:40 GMT
 recorded_with: VCR 3.0.1

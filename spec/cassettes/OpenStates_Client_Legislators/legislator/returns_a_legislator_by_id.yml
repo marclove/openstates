@@ -1,0 +1,133 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/legislators/AKL000031
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - 9cb84991967f479a8f361871a04cac73
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - http://openstates.org/api/v1/legislators/AKL000031/
+      Content-Length:
+      - '0'
+      Date:
+      - Thu, 21 Apr 2016 17:07:16 GMT
+      X-Varnish:
+      - '198267141'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 21 Apr 2016 17:06:59 GMT
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/legislators/AKL000031/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - 9cb84991967f479a8f361871a04cac73
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Authorization
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '3451'
+      Date:
+      - Thu, 21 Apr 2016 17:07:16 GMT
+      X-Varnish:
+      - '198267148'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"last_name": "Gara", "updated_at": "2016-04-21 08:48:19", "sources":
+        [{"url": "http://akleg.gov/legislator.php?id=gar"}], "full_name": "Les Gara",
+        "old_roles": {"27": [{"term": "27", "end_date": null, "district": "23", "chamber":
+        "lower", "state": "ak", "party": "Democratic", "type": "member", "start_date":
+        null}, {"term": "27", "committee_id": "AKC000053", "chamber": "lower", "state":
+        "ak", "subcommittee": null, "committee": "Finance", "position": "member",
+        "type": "committee member"}, {"term": "27", "committee_id": "AKC000078", "chamber":
+        "lower", "state": "ak", "subcommittee": null, "committee": "University Of
+        Alaska", "position": "member", "type": "committee member"}], "28": [{"term":
+        "28", "end_date": null, "district": "18", "chamber": "lower", "state": "ak",
+        "party": "Democratic", "type": "member", "start_date": null}, {"term": "28",
+        "committee_id": "AKC000227", "chamber": "lower", "state": "ak", "subcommittee":
+        "Finance Subcommittee", "committee": "Fiscal Policy", "position": "member",
+        "type": "committee member"}, {"term": "28", "committee_id": "AKC000053", "chamber":
+        "lower", "state": "ak", "subcommittee": null, "committee": "Finance", "position":
+        "member", "type": "committee member"}, {"term": "28", "committee_id": "AKC000213",
+        "chamber": "lower", "state": "ak", "subcommittee": "Finance Subcommittee",
+        "committee": "Health & Social Services", "position": "member", "type": "committee
+        member"}], "29": [{"term": "29", "committee_id": "AKC000053", "chamber": "lower",
+        "state": "ak", "subcommittee": null, "committee": "Finance", "position": "member",
+        "type": "committee member"}]}, "id": "AKL000031", "first_name": "Les", "middle_name":
+        "", "district": "20", "state": "ak", "votesmart_id": "27211", "party": "Democratic",
+        "email": "Representative.Les.Gara@akleg.gov", "all_ids": ["AKL000031", "AKL000098",
+        "AKL000150"], "leg_id": "AKL000031", "active": true, "transparencydata_id":
+        "a733b2d2a8ba431cbc6e40791c1e7611", "photo_url": "http://w3.legis.state.ak.us/images/house/GAR.jpg",
+        "roles": [{"term": "29", "end_date": null, "district": "20", "chamber": "lower",
+        "state": "ak", "party": "Democratic", "type": "member", "start_date": null},
+        {"term": "29", "committee_id": "AKC000242", "chamber": "lower", "state": "ak",
+        "subcommittee": null, "committee": "Minority Caucus", "position": "member",
+        "type": "committee member"}, {"term": "29", "committee_id": "AKC000213", "chamber":
+        "lower", "state": "ak", "subcommittee": "Finance Subcommittee", "committee":
+        "Health & Social Services", "position": "member", "type": "committee member"},
+        {"term": "29", "committee_id": "AKC000053", "chamber": "lower", "state": "ak",
+        "subcommittee": null, "committee": "Finance", "position": "member", "type":
+        "committee member"}, {"term": "29", "committee_id": "AKC000215", "chamber":
+        "lower", "state": "ak", "subcommittee": "Finance Subcommittee", "committee":
+        "Law", "position": "member", "type": "committee member"}], "url": "http://house.legis.state.ak.us/rep.php?id=gar",
+        "country": "us", "created_at": "2011-02-11 00:13:25", "level": "state", "chamber":
+        "lower", "offices": [{"fax": "907-465-3518", "name": "Capitol Office", "phone":
+        "907-465-2647", "address": "State Capitol Room 400\nJuneau AK, 99801", "type":
+        "capitol", "email": null}, {"fax": "907-269-0109", "name": "District Office",
+        "phone": "907-269-0106", "address": "716 W. 4th Ave. Suite 311\nAnchorage
+        AK, 99501-2133", "type": "district", "email": null}], "suffixes": ""}'
+    http_version: 
+  recorded_at: Thu, 21 Apr 2016 17:06:59 GMT
+recorded_with: VCR 3.0.1

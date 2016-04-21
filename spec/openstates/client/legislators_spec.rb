@@ -1,8 +1,6 @@
 require "helper"
 
 describe OpenStates::Client::Legislators do
-  let(:client) { OpenStates::Client.new("9cb84991967f479a8f361871a04cac73") }
-
   describe "#legislators", :vcr do
     it "returns all legislators" do
       legislators = client.legislators

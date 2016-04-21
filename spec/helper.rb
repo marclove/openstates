@@ -22,3 +22,8 @@ end
 def client
   OpenStates::Client.new(test_sunlight_api_key)
 end
+
+def openstates_url(url)
+  return url if url =~ /^http/
+  File.join(OpenStates::Connection::API_ENDPOINT, url)
+end

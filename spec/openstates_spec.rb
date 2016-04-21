@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'helper'
 
 describe OpenStates do
   it 'has a version number' do

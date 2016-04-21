@@ -1,6 +1,6 @@
 # Ruby wrapper for the Sunlight OpenStates API
 TODO: update this description
-The Sunlight Congress API is a live JSON API for the people and work of **Congress??**, provided by the Sunlight Foundation.
+The Sunlight OpenStates API is a live JSON API for the people and work of **Congress??**, provided by the Sunlight Foundation.
 
 ## Installation
 

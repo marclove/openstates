@@ -10,8 +10,11 @@ describe OpenStates::Client::Legislators do
     end
   end
 
-  describe "legislator" do
-    pending "implement"
+  describe "#legislator", :vcr do
+    it "returns a legislator by id" do
+      legislator = client.legislator("AKL000031")
+      expect(legislator.full_name).to eq("Les Gara")
+    end
   end
 
   describe "legislators_geo" do

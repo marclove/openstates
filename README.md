@@ -20,6 +20,10 @@ Or install it yourself as:
 
     $ gem install openstates
 
+## Authentication
+
+All requests to the OpenStates API require a Sunlight API key. An API key is free to register and has no usage limits.
+
 ## Usage
 
 TODO: Write usage instructions here

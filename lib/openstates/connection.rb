@@ -1,3 +1,5 @@
+require "faraday_middleware"
+
 module OpenStates
   module Connection
     ENDPOINT = "http://openstates.org/api/v1/".freeze
@@ -9,19 +11,17 @@ module OpenStates
     end
 
     def create_connection
-      Faraday.new(url: ENDPOINT) do |connection|
-        middlewares.each { |middleware| connection.user(middleware) }
-        connection.adapter(Faraday.default_adapter)
-      end
-    end
+      Faraday.new(ENDPOINT) do |conn|
+        conn.request :json
+        conn.headers[:"X-APIKEY"] = @api_key
 
-    def middlewares
-      [
-        Faraday::Request::UrlEncoded,
-        Faraday::Response::RaiseError,
-        Faraday::Response::Mashify,
-        Faraday::Response::ParseJson
-      ]
+        conn.response :mashify
+        conn.response :json
+        conn.response :logger
+        conn.response :follow_redirects, limit: 1
+
+        conn.adapter Faraday.default_adapter
+      end
     end
   end
 end

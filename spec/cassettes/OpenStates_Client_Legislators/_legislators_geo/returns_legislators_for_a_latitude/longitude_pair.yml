@@ -1,0 +1,235 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/legislators/geo?lat=37.775&long=-122.418
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - 9cb84991967f479a8f361871a04cac73
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - http://openstates.org/api/v1/legislators/geo/?lat=37.775&long=-122.418
+      Content-Length:
+      - '0'
+      Date:
+      - Thu, 21 Apr 2016 17:15:18 GMT
+      X-Varnish:
+      - '198279671'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 21 Apr 2016 17:15:01 GMT
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/legislators/geo/?lat=37.775&long=-122.418
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - 9cb84991967f479a8f361871a04cac73
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Authorization
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '11575'
+      Date:
+      - Thu, 21 Apr 2016 17:15:18 GMT
+      X-Varnish:
+      - '198279672'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"last_name": "Chiu", "updated_at": "2016-04-21 07:40:16", "sources":
+        [{"url": "http://assembly.ca.gov/assemblymembers"}], "full_name": "David Chiu",
+        "id": "CAL000452", "first_name": "David", "middle_name": "", "district": "17",
+        "state": "ca", "boundary_id": "ocd-division/country:us/state:ca/sldl:17",
+        "all_ids": ["CAL000452"], "leg_id": "CAL000452", "party": "Democratic", "active":
+        true, "photo_url": "http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/AD17_Chiu_Portrait150_20141201.jpg",
+        "roles": [{"term": "20152016", "end_date": null, "district": "17", "chamber":
+        "lower", "state": "ca", "party": "Democratic", "type": "member", "start_date":
+        null}, {"term": "20152016", "committee_id": "CAC000786", "chamber": "lower",
+        "state": "ca", "subcommittee": null, "committee": "Improving Bay Area Transportation
+        Systems", "position": "member", "type": "committee member"}, {"term": "20152016",
+        "committee_id": "CAC000731", "chamber": "lower", "state": "ca", "subcommittee":
+        null, "committee": "Budget", "position": "member", "type": "committee member"},
+        {"term": "20152016", "committee_id": "CAC000683", "chamber": "lower", "state":
+        "ca", "subcommittee": null, "committee": "Career Technical Education and Building
+        a 21st Century Workforce", "position": "member", "type": "committee member"},
+        {"term": "20152016", "committee_id": "CAC000761", "chamber": "lower", "state":
+        "ca", "subcommittee": null, "committee": "Health", "position": "member", "type":
+        "committee member"}, {"term": "20152016", "committee_id": "CAC000805", "chamber":
+        "lower", "state": "ca", "subcommittee": null, "committee": "Regional Planning
+        in the San Francisco Bay Area", "position": "member", "type": "committee member"},
+        {"term": "20152016", "committee_id": "CAC000796", "chamber": "lower", "state":
+        "ca", "subcommittee": null, "committee": "Women in the Workplace", "position":
+        "member", "type": "committee member"}, {"term": "20152016", "committee_id":
+        "CAC000781", "chamber": "lower", "state": "ca", "subcommittee": null, "committee":
+        "Cybersecurity", "position": "member", "type": "committee member"}, {"term":
+        "20152016", "committee_id": "CAC000724", "chamber": "lower", "state": "ca",
+        "subcommittee": null, "committee": "Judiciary", "position": "member", "type":
+        "committee member"}, {"term": "20152016", "committee_id": "CAC000766", "chamber":
+        "lower", "state": "ca", "subcommittee": null, "committee": "Local Government",
+        "position": "member", "type": "committee member"}, {"term": "20152016", "committee_id":
+        "CAC000801", "chamber": "lower", "state": "ca", "subcommittee": null, "committee":
+        "Housing and Community Development", "position": "Chair", "type": "committee
+        member"}], "url": "http://asmdc.org/members/a17", "created_at": "2015-01-05
+        16:30:03", "+district": "17", "chamber": "lower", "offices": [{"fax": null,
+        "name": "Capitol Office", "phone": "916-319-2017", "address": "P.O. Box 942849,
+        Room 2196\nSacramento, CA 94249-0017", "type": "capitol", "email": null},
+        {"fax": null, "name": "District Office", "phone": "415-557-3013", "address":
+        "455 Golden Gate Avenue, Suite 14300\nSan Francisco, CA 94102", "type": "district",
+        "email": null}], "+party": "Democratic", "suffixes": ""}, {"last_name": "Leno",
+        "updated_at": "2016-04-21 07:40:15", "sources": [{"url": "http://senate.ca.gov/senators"}],
+        "nimsp_candidate_id": "97753", "full_name": "Mark Leno", "old_roles": {"20092010":
+        [{"term": "20092010", "end_date": null, "district": "3", "+active": true,
+        "level": "state", "country": "us", "chamber": "upper", "state": "ca", "party":
+        "Democratic", "type": "member", "start_date": null}], "20112012": [{"term":
+        "20112012", "end_date": null, "district": "3", "chamber": "upper", "state":
+        "ca", "party": "Democratic", "type": "member", "start_date": null}, {"term":
+        "20112012", "committee_id": "CAC000272", "chamber": "upper", "state": "ca",
+        "subcommittee": null, "committee": "Standing Committee on Budget and Fiscal
+        Review", "position": "Chair", "type": "committee member"}, {"term": "20112012",
+        "committee_id": "CAC000283", "chamber": "upper", "state": "ca", "subcommittee":
+        null, "committee": "Standing Committee on Judiciary", "position": "member",
+        "type": "committee member"}, {"term": "20112012", "committee_id": "CAC000284",
+        "chamber": "upper", "state": "ca", "subcommittee": null, "committee": "Standing
+        Committee on Labor and Industrial Relations", "position": "member", "type":
+        "committee member"}, {"term": "20112012", "committee_id": "CAC000418", "chamber":
+        "upper", "state": "ca", "subcommittee": null, "committee": "Select Committee
+        on Autism and Related Disorders", "position": "member", "type": "committee
+        member"}, {"term": "20112012", "committee_id": "CAC000232", "chamber": "upper",
+        "state": "ca", "subcommittee": null, "committee": "Select Committee on Bay
+        Area Transportation", "position": "Chair", "type": "committee member"}, {"term":
+        "20112012", "committee_id": "CAC000238", "chamber": "upper", "state": "ca",
+        "subcommittee": null, "committee": "Select Committee on California''s Wine
+        Industry", "position": "member", "type": "committee member"}, {"term": "20112012",
+        "committee_id": "CAC000241", "chamber": "upper", "state": "ca", "subcommittee":
+        null, "committee": "Select Committee on Earthquake and Disaster Preparedness,
+        Response and Recovery", "position": "member", "type": "committee member"},
+        {"term": "20112012", "committee_id": "CAC000224", "chamber": "upper", "state":
+        "ca", "subcommittee": null, "committee": "Select Committee on Green Jobs,
+        Solar, Wind, and Clean Technologies", "position": "member", "type": "committee
+        member"}, {"term": "20112012", "committee_id": "CAC000247", "chamber": "upper",
+        "state": "ca", "subcommittee": null, "committee": "Select Committee on Renewable
+        Energy", "position": "Chair", "type": "committee member"}, {"term": "20112012",
+        "committee_id": "CAC000254", "chamber": "upper", "state": "ca", "subcommittee":
+        null, "committee": "Select Committee on Small Business and the Underground
+        Economy", "position": "member", "type": "committee member"}, {"term": "20112012",
+        "committee_id": "CAC000248", "chamber": "upper", "state": "ca", "subcommittee":
+        null, "committee": "Select Committee on Women and Children in the Criminal
+        Justice System", "position": "member", "type": "committee member"}, {"term":
+        "20112012", "committee_id": "CAC000359", "chamber": "joint", "state": "ca",
+        "subcommittee": null, "committee": "Joint Committee on Joint Rules", "position":
+        "member", "type": "committee member"}, {"term": "20112012", "committee_id":
+        "CAC000361", "chamber": "joint", "state": "ca", "subcommittee": null, "committee":
+        "Joint Legislative Budget Committee", "position": "Chair", "type": "committee
+        member"}], "20132014": [{"term": "20132014", "end_date": null, "district":
+        "11", "chamber": "upper", "state": "ca", "party": "Democratic", "type": "member",
+        "start_date": null}, {"term": "20132014", "committee_id": "CAC000283", "chamber":
+        "upper", "state": "ca", "subcommittee": null, "committee": "Standing Committee
+        on Judiciary", "position": "member", "type": "committee member"}, {"term":
+        "20132014", "committee_id": "CAC000608", "chamber": "upper", "state": "ca",
+        "subcommittee": null, "committee": "Select Committee on Autism and Related
+        Disorders", "position": "member", "type": "committee member"}, {"term": "20132014",
+        "committee_id": "CAC000512", "chamber": "upper", "state": "ca", "subcommittee":
+        null, "committee": "Select Committee on Mental Health", "position": "member",
+        "type": "committee member"}, {"term": "20132014", "committee_id": "CAC000508",
+        "chamber": "upper", "state": "ca", "subcommittee": null, "committee": "Select
+        Committee on Emerging Technology: Biotechnology and Green Energy Jobs", "position":
+        "member", "type": "committee member"}, {"term": "20132014", "committee_id":
+        "CAC000284", "chamber": "upper", "state": "ca", "subcommittee": null, "committee":
+        "Standing Committee on Labor and Industrial Relations", "position": "member",
+        "type": "committee member"}, {"term": "20132014", "committee_id": "CAC000272",
+        "chamber": "upper", "state": "ca", "subcommittee": null, "committee": "Standing
+        Committee on Budget and Fiscal Review", "position": "Chair", "type": "committee
+        member"}, {"term": "20132014", "committee_id": "CAC000277", "chamber": "upper",
+        "state": "ca", "subcommittee": null, "committee": "Standing Committee on Environmental
+        Quality", "position": "member", "type": "committee member"}]}, "id": "CAL000003",
+        "first_name": "Mark", "middle_name": "", "district": "11", "chamber": "upper",
+        "state": "ca", "votesmart_id": "28596", "boundary_id": "ocd-division/country:us/state:ca/sldu:11",
+        "email": "", "+capitol_office": {"phone": "(916) 651-4003", "street": "State
+        Capitol, Room 5100", "zip": "95814-4900", "city": "Sacramento"}, "all_ids":
+        ["CAL000003", "CAL000194", "CAL000319"], "leg_id": "CAL000003", "party": "Democratic",
+        "active": true, "transparencydata_id": "82b4cb97a7434d098cfb2d259d5d7022",
+        "nickname": "", "photo_url": "http://sd11.senate.ca.gov/sites/sd11.senate.ca.gov/files/images/ML%20at%20SCOTUS%20Prop%208%203.26.13%20II%20-%20Copy.thumbnail.JPG",
+        "+district_offices": [{"phone": "(415) 557-1300", "street": "455 Golden Gate
+        Avenue, Suite 14800", "zip": "94102", "city": "San Francisco"}, {"phone":
+        "(415) 479-6612", "street": "3501 Civic Center Drive, Suite 425", "zip": "94903",
+        "city": "San Rafael"}], "roles": [{"term": "20152016", "end_date": null, "district":
+        "11", "chamber": "upper", "state": "ca", "party": "Democratic", "type": "member",
+        "start_date": null}, {"term": "20152016", "committee_id": "CAC000787", "chamber":
+        "upper", "state": "ca", "subcommittee": null, "committee": "Budget and Fiscal
+        Review", "position": "Chair", "type": "committee member"}, {"term": "20152016",
+        "committee_id": "CAC000687", "chamber": "joint", "state": "ca", "subcommittee":
+        null, "committee": "Rules", "position": "member", "type": "committee member"},
+        {"term": "20152016", "committee_id": "CAC000737", "chamber": "upper", "state":
+        "ca", "subcommittee": null, "committee": "Public Safety", "position": "member",
+        "type": "committee member"}, {"term": "20152016", "committee_id": "CAC000762",
+        "chamber": "upper", "state": "ca", "subcommittee": null, "committee": "Labor
+        and Industrial Relations", "position": "member", "type": "committee member"},
+        {"term": "20152016", "committee_id": "CAC000771", "chamber": "upper", "state":
+        "ca", "subcommittee": null, "committee": "Judiciary", "position": "member",
+        "type": "committee member"}, {"term": "20152016", "committee_id": "CAC000712",
+        "chamber": "joint", "state": "ca", "subcommittee": null, "committee": "Legislative
+        Budget", "position": "Chair", "type": "committee member"}, {"term": "20152016",
+        "committee_id": "CAC000721", "chamber": "upper", "state": "ca", "subcommittee":
+        null, "committee": "Legislative Ethics", "position": "member", "type": "committee
+        member"}, {"term": "20152016", "committee_id": "CAC000774", "chamber": "upper",
+        "state": "ca", "subcommittee": null, "committee": "Environmental Quality",
+        "position": "member", "type": "committee member"}], "url": "http://sd11.senate.ca.gov",
+        "country": "us", "created_at": "2012-01-31 19:25:08", "level": "state", "nimsp_id":
+        "4391", "+district": "11", "offices": [{"fax": null, "name": "Senate Office",
+        "phone": "916-651-4011", "address": "State Capitol, Room 5100, Sacramento,
+        CA 95814-4900", "type": "capitol", "email": null}, {"fax": null, "name": "District
+        Office", "phone": "415-557-1300", "address": "455 Golden Gate Avenue, Suite
+        14800, San Francisco, CA 94102", "type": "district", "email": null}], "+party":
+        "Democratic", "suffixes": ""}]'
+    http_version: 
+  recorded_at: Thu, 21 Apr 2016 17:15:02 GMT
+recorded_with: VCR 3.0.1

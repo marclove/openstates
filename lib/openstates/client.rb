@@ -2,6 +2,7 @@ require "openstates/connection"
 require "openstates/request"
 require "openstates/client/legislators"
 require "openstates/client/committees"
+require "openstates/client/states"
 
 module OpenStates
   class Client
@@ -9,6 +10,7 @@ module OpenStates
     include OpenStates::Request
     include OpenStates::Client::Legislators
     include OpenStates::Client::Committees
+    include OpenStates::Client::States
 
     attr_reader :api_key
 

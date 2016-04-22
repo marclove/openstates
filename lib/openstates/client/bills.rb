@@ -5,8 +5,8 @@ module OpenStates
         get("bills", options)
       end
 
-      def bill(id, state, session, options = {})
-        get("bills/#{state}/#{session}/#{id}", options)
+      def bill(id, options = {})
+        get("bills/#{id}", options)
       end
     end
   end

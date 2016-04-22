@@ -4,17 +4,16 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'openstates/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "openstates"
+  spec.name          = "sunlight-openstates"
   spec.version       = OpenStates::VERSION
   spec.authors       = ["Ivo Benedito"]
   spec.email         = ["ivobenedito@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Ruby wrapper for the Sunlight OpenStates API.}
+  spec.description   = %q{Ruby wrapper for the Sunlight OpenStates API.}
+  spec.homepage      = "https://github.com/advocacyinstitute/openstates"
+  spec.licenses      = ["MIT"]
 
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
   if spec.respond_to?(:metadata)
     spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
   else

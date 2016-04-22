@@ -29,9 +29,9 @@ http_interactions:
       Content-Length:
       - '0'
       Date:
-      - Fri, 22 Apr 2016 13:14:44 GMT
+      - Fri, 22 Apr 2016 14:36:03 GMT
       X-Varnish:
-      - '199906959'
+      - '200028196'
       Age:
       - '0'
       Via:
@@ -42,7 +42,7 @@ http_interactions:
       encoding: UTF-8
       string: ''
     http_version: 
-  recorded_at: Fri, 22 Apr 2016 13:14:25 GMT
+  recorded_at: Fri, 22 Apr 2016 14:35:44 GMT
 - request:
     method: get
     uri: http://openstates.org/api/v1/bills/NCB00008846/
@@ -74,9 +74,9 @@ http_interactions:
       Content-Length:
       - '42486'
       Date:
-      - Fri, 22 Apr 2016 13:14:44 GMT
+      - Fri, 22 Apr 2016 14:36:03 GMT
       X-Varnish:
-      - '199906970'
+      - '200028205'
       Age:
       - '0'
       Via:
@@ -625,5 +625,5 @@ http_interactions:
         EDUCATION", "MEMBERSHIP", "PRESENTED", "PUBLIC", "RATIFIED", "TERM LENGTHS
         & LIMITS", "UNC", "UNC BOARD OF GOVERNORS"], "bill_id": "SB 670"}'
     http_version: 
-  recorded_at: Fri, 22 Apr 2016 13:14:26 GMT
+  recorded_at: Fri, 22 Apr 2016 14:35:45 GMT
 recorded_with: VCR 3.0.1

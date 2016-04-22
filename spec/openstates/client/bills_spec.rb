@@ -3,10 +3,10 @@ require "helper"
 describe OpenStates::Client::Bills do
   describe "#bills", :vcr do
     it "returns bills for a state" do
-      bills = client.bills(state: "nc")
+      bills = client.bills(state: "ny")
 
       expect(bills.count).to be > 0
-      assert_requested :get, openstates_url("bills?state=nc")
+      assert_requested :get, openstates_url("bills?state=ny")
     end
   end
 

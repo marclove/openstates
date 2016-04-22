@@ -24,7 +24,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/openstates.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/advocacyinstitute/openstates](https://github.com/advocacyinstitute/openstates).
 
 ## Copyright
 Copyright (c) 2011-2016, Schaffer Williams.

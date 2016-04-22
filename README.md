@@ -7,8 +7,6 @@ The Sunlight OpenStates API is a live JSON API for the people and work of **Cong
 [![Code Climate](https://codeclimate.com/github/advocacyinstitute/openstates/badges/gpa.svg)][codeclimate]
 
 ## Installation
-TODO: Not published yet. 
-Need to figure out what's the best naming, since openstates ruby gem is already taken.
 
     $ gem install sunlight-openstates
 

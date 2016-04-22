@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/metadata/ny
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - "<SUNLIGHT_API_KEY>"
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - http://openstates.org/api/v1/metadata/ny/
+      Content-Length:
+      - '0'
+      Date:
+      - Fri, 22 Apr 2016 14:30:13 GMT
+      X-Varnish:
+      - 200018817 200017938
+      Age:
+      - '46'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 22 Apr 2016 14:29:54 GMT
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/metadata/ny/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - "<SUNLIGHT_API_KEY>"
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Authorization
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '1301'
+      Date:
+      - Fri, 22 Apr 2016 14:30:13 GMT
+      X-Varnish:
+      - 200018819 200017944
+      Age:
+      - '46'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"latest_csv_date": "2016-03-08 23:23:46", "feature_flags": ["subjects",
+        "events", "influenceexplorer"], "terms": [{"end_year": 2011, "start_year":
+        2010, "name": "2009-2010", "sessions": ["2009-2010"]}, {"end_year": 2012,
+        "start_year": 2011, "name": "2011-2012", "sessions": ["2011-2012"]}, {"end_year":
+        2014, "start_year": 2013, "name": "2013-2014", "sessions": ["2013-2014"]},
+        {"end_year": 2016, "start_year": 2015, "name": "2015-2016", "sessions": ["2015-2016"]}],
+        "name": "New York", "latest_csv_url": "http://static.openstates.org/downloads/2016-03-08-ny-csv.zip",
+        "legislature_name": "New York Legislature", "session_details": {"2009-2010":
+        {"display_name": "2009 Regular Session"}, "2013-2014": {"display_name": "2013
+        Regular Session"}, "2015-2016": {"display_name": "2015 Regular Session"},
+        "2011-2012": {"display_name": "2011 Regular Session"}}, "abbreviation": "ny",
+        "latest_update": "2016-04-18 18:03:12", "latest_json_url": "http://static.openstates.org/downloads/2016-04-06-ny-json.zip",
+        "requests_per_minute": 30, "id": "ny", "chambers": {"upper": {"name": "Senate",
+        "title": "Senator"}, "lower": {"name": "Assembly", "title": "Assembly Member"}},
+        "capitol_timezone": "America/New_York", "latest_json_date": "2016-04-06 07:47:40",
+        "legislature_url": "http://public.leginfo.state.ny.us/"}'
+    http_version: 
+  recorded_at: Fri, 22 Apr 2016 14:29:54 GMT
+recorded_with: VCR 3.0.1

@@ -1,8 +1,10 @@
 # Ruby wrapper for the Sunlight OpenStates API
 
+[gem]: https://rubygems.org/gems/sunlight-openstates
 [travis]: https://travis-ci.org/advocacyinstitute/openstates
 [codeclimate]: https://codeclimate.com/github/advocacyinstitute/openstates
 
+[![Gem Version](https://badge.fury.io/rb/sunlight-openstates.svg)][gem]
 [![Build Status](https://travis-ci.org/advocacyinstitute/openstates.svg?branch=master)][travis]
 [![Code Climate](https://codeclimate.com/github/advocacyinstitute/openstates/badges/gpa.svg)][codeclimate]
 

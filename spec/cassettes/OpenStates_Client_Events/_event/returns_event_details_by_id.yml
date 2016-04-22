@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/events/CTE00129791
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - "<SUNLIGHT_API_KEY>"
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - http://openstates.org/api/v1/events/CTE00129791/
+      Content-Length:
+      - '0'
+      Date:
+      - Fri, 22 Apr 2016 14:24:43 GMT
+      X-Varnish:
+      - '200012103'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Fri, 22 Apr 2016 14:24:25 GMT
+- request:
+    method: get
+    uri: http://openstates.org/api/v1/events/CTE00129791/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Apikey:
+      - "<SUNLIGHT_API_KEY>"
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.1 (Ubuntu)
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Authorization
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '509'
+      Date:
+      - Fri, 22 Apr 2016 14:24:44 GMT
+      X-Varnish:
+      - '200012107'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"documents": [], "end": "2016-04-15 13:00:00", "description": "Task
+        Force Concerning Outcomes Based Financing Meeting (1E)", "participants": [],
+        "created_at": "2016-04-01 04:23:37", "when": "2016-04-15 15:00:00", "updated_at":
+        "2016-04-01 04:23:37", "sources": [{"url": "http://www.cga.ct.gov/basin/fullcalendar/commevents.php?comm_code=HED"}],
+        "state": "ct", "session": "2016", "location": "LOB Room 1E", "related_bills":
+        [], "timezone": "America/New_York", "type": "committee:meeting", "id": "CTE00129791"}'
+    http_version: 
+  recorded_at: Fri, 22 Apr 2016 14:24:25 GMT
+recorded_with: VCR 3.0.1

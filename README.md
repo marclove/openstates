@@ -1,7 +1,9 @@
 # Ruby wrapper for the Sunlight OpenStates API
 
+[travis]: https://travis-ci.org/advocacyinstitute/openstates
 [codeclimate]: https://codeclimate.com/github/advocacyinstitute/openstates
 
+[![Build Status](https://travis-ci.org/advocacyinstitute/openstates.svg?branch=master)][travis]
 [![Code Climate](https://codeclimate.com/github/advocacyinstitute/openstates/badges/gpa.svg)][codeclimate]
 
 The Sunlight OpenStates API is a live JSON API for the people and work of Congress, provided by the Sunlight Foundation.

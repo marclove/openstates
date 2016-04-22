@@ -14,7 +14,7 @@ describe OpenStates::Client::Bills do
     it "returns bill details by id" do
       bill = client.bill("NCB00008846")
 
-      expect(bill.id).to eq("NCB00008846")
+      expect(bill.actions.count).to be > 0
       assert_requested :get, openstates_url("bills/NCB00008846")
     end
   end

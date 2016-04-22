@@ -13,11 +13,11 @@ module OpenStates
     def create_connection
       Faraday.new(API_ENDPOINT) do |conn|
         conn.request :json
-        conn.headers[:"X-APIKEY"] = @api_key
+        conn.headers[:"X-APIKEY"] = api_key
 
         conn.response :mashify
         conn.response :json
-        conn.response :logger
+        conn.response :logger if log
         conn.response :follow_redirects, limit: 1
 
         conn.adapter Faraday.default_adapter

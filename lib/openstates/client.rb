@@ -18,10 +18,11 @@ module OpenStates
     include OpenStates::Client::Legislators
     include OpenStates::Client::States
 
-    attr_reader :api_key
+    attr_reader :api_key, :log
 
-    def initialize(api_key)
+    def initialize(api_key, options = {})
       @api_key = api_key
+      @log = options[:log]
     end
   end
 end

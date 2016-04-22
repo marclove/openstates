@@ -3,8 +3,10 @@ TODO: update this description
 The Sunlight OpenStates API is a live JSON API for the people and work of **Congress??**, provided by the Sunlight Foundation.
 
 ## Installation
+TODO: Not published yet. 
+Need to figure out what's the best naming, since openstates ruby gem is already taken.
 
-    $ gem install openstates
+    $ gem install sunlight-openstates
 
 ## Authentication
 

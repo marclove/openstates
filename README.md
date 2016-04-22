@@ -2,6 +2,12 @@
 TODO: update this description
 The Sunlight OpenStates API is a live JSON API for the people and work of **Congress??**, provided by the Sunlight Foundation.
 
+[gem]: https://rubygems.org/gems/sunlight-openstates
+[travis]: https://travis-ci.org/advocacyinstitute/openstates
+[gemnasium]: https://gemnasium.com/advocacyinstitute/openstates
+[codeclimate]: https://codeclimate.com/github/advocacyinstitute/openstates
+[coveralls]: https://coveralls.io/github/cadvocacyinstitute/openstates?branch=master
+
 ## Installation
 TODO: Not published yet. 
 Need to figure out what's the best naming, since openstates ruby gem is already taken.

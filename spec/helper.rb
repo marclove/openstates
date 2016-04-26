@@ -12,6 +12,8 @@ require "openstates"
 require "rspec"
 require "webmock/rspec"
 
+WebMock.disable_net_connect!(allow: "coveralls.io")
+
 require "vcr"
 
 VCR.configure do |c|

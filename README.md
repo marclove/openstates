@@ -3,10 +3,12 @@
 [gem]: https://rubygems.org/gems/sunlight-openstates
 [travis]: https://travis-ci.org/advocacyinstitute/openstates
 [codeclimate]: https://codeclimate.com/github/advocacyinstitute/openstates
+[coveralls]: https://coveralls.io/github/advocacyinstitute/openstates?branch=master
 
 [![Gem Version](https://badge.fury.io/rb/sunlight-openstates.svg)][gem]
 [![Build Status](https://travis-ci.org/advocacyinstitute/openstates.svg?branch=master)][travis]
 [![Code Climate](https://codeclimate.com/github/advocacyinstitute/openstates/badges/gpa.svg)][codeclimate]
+[![Coverage Status](https://coveralls.io/repos/advocacyinstitute/openstates/badge.svg?branch=master&service=github)][coveralls]
 
 The Sunlight OpenStates API is a live JSON API for the people and work of Congress, provided by the Sunlight Foundation.
 

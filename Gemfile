@@ -11,6 +11,7 @@ group :development, :test do
 end
 
 group :test do
+  gem "coveralls", require: false
   gem "fuubar"
   gem "simplecov", require: false
   gem "vcr"

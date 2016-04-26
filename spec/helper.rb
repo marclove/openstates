@@ -1,4 +1,11 @@
 require "simplecov"
+require "coveralls"
+
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::SimpleCov::Formatter
+]
+
 SimpleCov.start
 
 require "openstates"
@@ -6,6 +13,7 @@ require "rspec"
 require "webmock/rspec"
 
 require "vcr"
+
 VCR.configure do |c|
   c.configure_rspec_metadata!
   c.cassette_library_dir = "spec/cassettes"

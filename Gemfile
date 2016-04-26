@@ -11,6 +11,8 @@ group :development, :test do
 end
 
 group :test do
+  gem "fuubar"
+  gem "simplecov", require: false
   gem "vcr"
   gem "webmock"
 end

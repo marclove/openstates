@@ -2,11 +2,13 @@
 
 [gem]: https://rubygems.org/gems/sunlight-openstates
 [travis]: https://travis-ci.org/advocacyinstitute/openstates
+[gemnasium]: https://gemnasium.com/advocacyinstitute/openstates
 [codeclimate]: https://codeclimate.com/github/advocacyinstitute/openstates
 [coveralls]: https://coveralls.io/github/advocacyinstitute/openstates?branch=master
 
 [![Gem Version](https://badge.fury.io/rb/sunlight-openstates.svg)][gem]
 [![Build Status](https://travis-ci.org/advocacyinstitute/openstates.svg?branch=master)][travis]
+[![Dependency Status](https://gemnasium.com/advocacyinstitute/openstates.svg)][gemnasium]
 [![Code Climate](https://codeclimate.com/github/advocacyinstitute/openstates/badges/gpa.svg)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/advocacyinstitute/openstates/badge.svg?branch=master&service=github)][coveralls]
 

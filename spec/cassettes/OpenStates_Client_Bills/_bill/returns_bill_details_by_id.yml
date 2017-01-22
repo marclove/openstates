@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://openstates.org/api/v1/bills/NCB00008846
+    uri: https://openstates.org/api/v1/bills/NCB00008846
     body:
       encoding: US-ASCII
       string: ''
@@ -25,7 +25,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Location:
-      - http://openstates.org/api/v1/bills/NCB00008846/
+      - https://openstates.org/api/v1/bills/NCB00008846/
       Content-Length:
       - '0'
       Date:
@@ -41,11 +41,11 @@ http_interactions:
     body:
       encoding: UTF-8
       string: ''
-    http_version: 
+    http_version:
   recorded_at: Fri, 22 Apr 2016 14:35:44 GMT
 - request:
     method: get
-    uri: http://openstates.org/api/v1/bills/NCB00008846/
+    uri: https://openstates.org/api/v1/bills/NCB00008846/
     body:
       encoding: US-ASCII
       string: ''
@@ -624,6 +624,6 @@ http_interactions:
         "CHAPTERED", "COLLEGES & UNIVERSITIES", "EDUCATION", "EMPLOYMENT", "HIGHER
         EDUCATION", "MEMBERSHIP", "PRESENTED", "PUBLIC", "RATIFIED", "TERM LENGTHS
         & LIMITS", "UNC", "UNC BOARD OF GOVERNORS"], "bill_id": "SB 670"}'
-    http_version: 
+    http_version:
   recorded_at: Fri, 22 Apr 2016 14:35:45 GMT
 recorded_with: VCR 3.0.1

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://openstates.org/api/v1/committees/AKC000001
+    uri: https://openstates.org/api/v1/committees/AKC000001
     body:
       encoding: US-ASCII
       string: ''
@@ -25,7 +25,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Location:
-      - http://openstates.org/api/v1/committees/AKC000001/
+      - https://openstates.org/api/v1/committees/AKC000001/
       Content-Length:
       - '0'
       Date:
@@ -45,7 +45,7 @@ http_interactions:
   recorded_at: Fri, 22 Apr 2016 13:28:45 GMT
 - request:
     method: get
-    uri: http://openstates.org/api/v1/committees/AKC000001/
+    uri: https://openstates.org/api/v1/committees/AKC000001/
     body:
       encoding: US-ASCII
       string: ''

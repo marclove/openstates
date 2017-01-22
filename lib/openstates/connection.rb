@@ -2,7 +2,7 @@ require "faraday_middleware"
 
 module OpenStates
   module Connection
-    API_ENDPOINT = "http://openstates.org/api/v1/".freeze
+    API_ENDPOINT = "https://openstates.org/api/v1/".freeze
 
     private
 
@@ -13,8 +13,6 @@ module OpenStates
     def create_connection
       Faraday.new(API_ENDPOINT) do |conn|
         conn.request :json
-        conn.headers[:"X-APIKEY"] = api_key
-
         conn.response :mashify
         conn.response :json
         conn.response :logger if log

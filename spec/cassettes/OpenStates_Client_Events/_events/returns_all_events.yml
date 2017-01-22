@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://openstates.org/api/v1/events
+    uri: https://openstates.org/api/v1/events
     body:
       encoding: US-ASCII
       string: ''
@@ -25,7 +25,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Location:
-      - http://openstates.org/api/v1/events/
+      - https://openstates.org/api/v1/events/
       Content-Length:
       - '0'
       Date:
@@ -45,7 +45,7 @@ http_interactions:
   recorded_at: Fri, 22 Apr 2016 14:17:48 GMT
 - request:
     method: get
-    uri: http://openstates.org/api/v1/events/
+    uri: https://openstates.org/api/v1/events/
     body:
       encoding: US-ASCII
       string: ''
